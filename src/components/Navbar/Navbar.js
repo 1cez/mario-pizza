@@ -43,7 +43,7 @@ function Navbar() {
             </button>
           </div>
         </div>
-        {showModal ? <Modal /> : null}
+        {showModal ? <Modal setShowModal={setShowModal} /> : null}
       </div>
     </>
   );
