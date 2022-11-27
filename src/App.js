@@ -6,6 +6,8 @@ import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import Menu from "./pages/Menu/Menu";
 
+import "./_App.scss"
+
 function App() {
   return (
     <>
